@@ -342,6 +342,47 @@ body {
 
 
 
+/* parallax section starts here */
+#parallax{
+	width: 100%;
+	padding-top: 5%;
+}
+.mainCont{
+	padding: 0;
+}
+.parallaxDiv{
+	width: 100%;
+  background-image: url("https://demo.kaliumtheme.com/construction/wp-content/uploads/2017/09/banner-projects.jpg");
+	height: 400px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.parallaxDivText{
+	color: white;
+}
+.parallaxDivText h2{
+	font-size: 2.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.parallaxDivText p{
+	font-size: 1.2em;
+}
+.parallaxDivText a{
+	display: inline-block;
+	padding: 3%;
+	background-color: white;
+	color: black;
+	border-radius: 30px;
+	text-decoration: none;
+}
+.parallaxDivText a:hover{
+	background-color: whitesmoke;
+}
+/* parallax section ends here */
+
 
 
 
