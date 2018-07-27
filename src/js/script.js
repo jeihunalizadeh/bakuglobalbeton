@@ -34,11 +34,12 @@ $(document).ready(function(){
         $(".cancel").css({
             "display":"block",
         })
+        console.log(this, "this is main icon");
     })
     $(".cancel").click(function(){
         $(".menulayout").animate({
             "width":"0"
-        }, 1700, function(){
+        }, 200, function(){
             $(".menulayout").css({
                 "height":"0"
             })
@@ -49,6 +50,7 @@ $(document).ready(function(){
         $(".menuicn").css({
             "display":"block"
         })
+        console.log(this, "this is extra icon");
     })
         // let shareclick=document.querySelector(".shareclick");
         // let shareDiv=document.querySelector(".shareDiv");
