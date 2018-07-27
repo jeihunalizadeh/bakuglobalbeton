@@ -274,6 +274,9 @@ body {
 #main{
 	padding-top: 5%;
 }
+.since{
+	font-size: 1.3em;
+}
 
 .borderDiv:hover{
 	box-shadow: 3px 3px 10px gray;
@@ -286,6 +289,9 @@ body {
 #projects{
 	padding-top: 5%;
 	width: 100%;
+}
+#projects p{
+	font-size: 1.4em;
 }
 
 
@@ -339,6 +345,9 @@ body {
 #service {
 	padding-top: 5%;
 }
+#service p{
+	font-size: 1.3em;
+}
 
 .serviceImg img {
 	padding-top: 5%;
@@ -386,7 +395,28 @@ body {
 }
 /* parallax section ends here */
 
+/* ourTeam section starts here */
+#ourTeam{
+	padding-top: 5%;
+}
+#ourTeam h4{
+	padding-top: 5%;
+}
+.teamP{
+	font-size: 1.3em;
+}
 
+/* ourteam section ends here */
+
+/* partner section starts here */
+#partners{
+	padding: 5% 0;
+	background-color: white;
+}
+.partnerLogo img{
+	width: 70%;
+}
+/* partner section ends here */
 
 
 
@@ -395,6 +425,8 @@ body {
 #footer {
 	margin: auto;
 	padding: 100px 0;
+	
+	
   }
   #footer .logo_img {
 	padding: 0;
@@ -425,6 +457,7 @@ body {
   .copyright {
 	background-color: black;
 	height: 80px;
+
   }
   .copyright .text-center {
 	text-align: center;
