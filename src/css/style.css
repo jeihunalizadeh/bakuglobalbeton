@@ -340,6 +340,10 @@ body {
 	padding-top: 5%;
 }
 
+.serviceImg img {
+	padding-top: 5%;
+	width: 53%;
+}
 
 /* parallax section starts here */
 #parallax{
