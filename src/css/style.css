@@ -275,11 +275,6 @@ body {
 	padding-top: 5%;
 }
 
-.borderDiv{
-	/* border: 1px solid #FF6F00;
-	border-radius: 30px; */
-
-}
 .borderDiv:hover{
 	box-shadow: 3px 3px 10px gray;
 	/* transform: scale(1.0.5); */
@@ -340,9 +335,15 @@ body {
 
 /* projects section ends */
 
+/*SERVICE SECTION STARTS*/
+#service {
+	padding-top: 5%;
+}
 
-
-
+.serviceImg img {
+	width: 53%;
+	padding-bottom: 5%;
+}
 
 
 
