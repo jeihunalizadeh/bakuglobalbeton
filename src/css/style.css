@@ -108,34 +108,6 @@ body {
 	width: 300px;
 	box-shadow: 0 0 10px black;
   }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .under li {
-	list-style-type: none;
-	text-align: left;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .under li a {
-	padding: 10px !important;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .HomeUl {
-	width: 260px;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .CompanyUl {
-	width: 220px;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .ShopUl {
-	width: 200px;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .BlogUl {
-	width: 210px;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .ContactUl {
-	width: 190px;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi:hover .under {
-	display: block;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi:hover .under li:hover a {
-	color: darkgray;
-  }
   header nav .navs .cont-nav .navitems .menuicn {
 	display: none;
   }
@@ -299,14 +271,74 @@ body {
  /*IMPORTANT!!!!!! DECIDE WHAT THE FUCK THIS } BITCH IS DOING THERE*/
 
 /*About section*/
-#aboutcontainer {
-	margin-top: 10px;
+#main{
+	padding-top: 5%;
 }
 
-.borderdiv{
-	border: 1px solid #FF6F00;
+.borderDiv{
+	/* border: 1px solid #FF6F00;
+	border-radius: 30px; */
+
+}
+.borderDiv:hover{
+	box-shadow: 3px 3px 10px gray;
+	/* transform: scale(1.0.5); */
 	
 }
+/* about section ends */
+
+/* projects section starts */
+#projects{
+	padding-top: 5%;
+	width: 100%;
+}
+
+
+.projectImgDiv{
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+.projectImg{
+	width: 100%;
+	padding: 0;
+	
+}
+.hoverImgDiv{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 166, 0, 0.548);
+	width: 0;
+	height: 0;
+	transition: all 0.7s;
+	overflow: hidden;
+}
+.projectImgDiv:hover .hoverImgDiv{
+	height: 429.66px;
+	width: 100%;
+}
+/* .hoverImgDiv h5, */
+.hoverImgDiv h5,
+.hoverImgDiv  p{
+	color:white;
+	font-size: 2em;
+	text-align: center;
+	opacity: 0;
+	transition: all 3s;
+	line-height: 429.66px;
+}
+/* .hoverImgDiv h5{
+	line-height: 429.66px;
+} */
+
+.projectImgDiv:hover .hoverImgDiv p,
+.projectImgDiv:hover .hoverImgDiv h5{
+	opacity: 1;
+}
+
+
+/* projects section ends */
 
 
 
@@ -315,21 +347,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  }
-  #footer {
+#footer {
 	margin: auto;
 	padding: 100px 0;
   }
