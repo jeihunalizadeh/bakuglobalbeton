@@ -61,97 +61,8 @@ body {
   header .contact .containers .searchspan .inputclose:hover {
 	color: red;
   }
-  header nav {
-	background-color: white;
-  }
-  header nav .navs {
-	width: 100%;
-	z-index: 30;
-  }
-  header nav .navs .logo {
-	padding-top: 0 !important;
-  }
-  header nav .navs .logo a {
-	display: inline-block;
-  }
-  header nav .navs .cont-nav {
-	width: 90%;
-	margin: auto;
-  }
-  header nav .navs .cont-nav .logo {
-	padding-top: 10px;
-  }
-  header nav .navs .cont-nav .navitems ul {
-	display: flex;
-	position: relative;
-	background-color: white;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi {
-	list-style-type: none;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi a {
-	padding: 20px;
-	display: inline-block;
-	text-decoration: none;
-	color: black;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi a:hover {
-	color: #FF6F00;
+ 
 
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .active {
-	color: darkgray;
-  }
-  header nav .navs .cont-nav .navitems ul .navbarUlLi .under {
-	display: none;
-	position: absolute;
-	width: 300px;
-	box-shadow: 0 0 10px black;
-  }
-  header nav .navs .cont-nav .navitems .menuicn {
-	display: none;
-  }
-/*  header nav .navs .cont-nav .navicn a {
-	text-decoration: none;
-	color: black;
-	padding: 7px;
-	display: inline;
-	position: relative;
-  }
-  header nav .navs .cont-nav .navicn a i {
-	padding: 12px 12px;
-	border-radius: 100%;
-	transition: all 0.5s;
-	font-size: 1.5em;
-  }
-  header nav .navs .cont-nav .navicn a i:hover {
-	background-color: darkgray;
-	transition: all 0.5s;
-  }
-  header nav .navs .cont-nav .navicn .shareDiv {
-	position: absolute;
-	top: 10px;
-	z-index: -1;
-	width: 100%;
-	height: auto;
-	display: none;
-  }
-  header nav .navs .cont-nav .navicn .shareDiv i {
-	font-size: 1.5em;
-	padding-left: 5px;
-  }
-  header nav .navs .cont-nav .navicn .shareDiv i :hover {
-	background-color: transparent !important;
-  }
-  header nav .navs .cont-nav .navicn .face:hover {
-	color: #1111ba;
-  }
-  header nav .navs .cont-nav .navicn .twit:hover {
-	color: #3f84eb;
-  }
-  header nav .navs .cont-nav .navicn .insta:hover {
-	color: #88354f;
-  }*/
   header .cancel {
 	position: absolute;
 	right: 0;
@@ -163,36 +74,7 @@ body {
 	z-index: 1000;
 	display: none;
   }
-  header .menulayout {
-	width: 100%;
-	height: 0;
-	background-color: black;
-	opacity: 1;
-	position: absolute;
-	top: 0;
-	left: 0;
-	transition: all 0.7s linear;
-	overflow: hidden;
-	z-index: 888;
-  }
-  header .menulayout .hoverNav {
-	padding-left: 0;
-  }
-  header .menulayout .hoverNav li {
-	list-style-type: none;
-	padding-left: 40px;
-  }
-  header .menulayout .hoverNav li a {
-	text-decoration: none;
-	color: lightgray;
-  }
-  header .menulayout .hoverNav li ul {
-	padding-left: 5px;
-  }
-  header .menulayout .hoverNav li ul li {
-	padding: 10% 3%;
-	width: 200%;
-  }
+  
   
   .d-flex {
 	justify-content: center;
@@ -232,41 +114,7 @@ body {
 	  color: darkgray;
 	  transition: all 0.7s;
 	}
-	header nav .navs {
-	  width: 100%;
-	}
-	header nav .navs .cont-nav {
-	  width: 90%;
-	  margin: auto;
-	}
-	header nav .navs .cont-nav .logo {
-	  padding-top: 31px;
-	}
-	header nav .navs .cont-nav .navitems {
-	  position: relative;
-	}
-	header nav .navs .cont-nav .navitems ul {
-	  display: none;
-	}
-	header nav .navs .cont-nav .navitems ul li {
-	  list-style-type: none;
-	}
-	header nav .navs .cont-nav .navitems ul li a {
-	  padding: 30px;
-	  line-height: 80px;
-	  display: inline-block;
-	}
-	header nav .navs .cont-nav .navitems .menuicn {
-	  display: block;
-	  line-height: 80px;
-	  font-size: 3em;
-	  position: absolute;
-	  right: 0;
-	  color: black;
-	}
-	header nav .navs .cont-nav .navicn .shareDiv {
-	  width: 22%;
-	}
+	
 }
  /*IMPORTANT!!!!!! DECIDE WHAT THE FUCK THIS } BITCH IS DOING THERE*/
 
@@ -416,6 +264,7 @@ body {
 .partnerLogo img{
 	width: 70%;
 }
+
 /* partner section ends here */
 
 
@@ -483,4 +332,52 @@ body {
  	}
  }
   /*# sourceMappingURL=style.css.map */
-  
+	
+	
+
+
+
+	header{
+		position: sticky;
+		left: 0;
+		top: -60px;
+		box-shadow: 1px 3px 10px black;
+	}
+	nav{
+		padding: 0!important;
+	}
+	.productitm:hover .productDiv{
+		display: block;
+	}
+	
+	.navButtons li {
+		margin: 3px;
+	}
+	
+	
+	@media screen and (max-width: 768px) {
+		header{
+			position: relative;
+		}
+	}
+	
+	.navbarIcons a i {
+		color: black;
+		font-size: 25px;
+		margin: 5px;
+	}
+	.navbarIcons a i:hover {
+		color: #323335;
+	}
+	.nav-link{
+		color: black!important;
+		padding-top: 0!important;
+		padding-bottom: 0!important;
+	}
+	.navbar-brand{
+		padding-top: 0!important;
+		padding-bottom: 0!important;
+	}
+	.nav-item:hover .nav-link{
+		color: orange!important;
+	}
