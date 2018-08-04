@@ -1,3 +1,7 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
 body {
 	background-color: whitesmoke;
   }
@@ -345,8 +349,14 @@ body {
 #service {
 	padding-top: 5%;
 }
+#service h3 {
+	font-weight: bold;
+}
+
 #service p{
 	font-size: 1.3em;
+	color:#babca7;
+
 }
 
 .serviceImg img {
