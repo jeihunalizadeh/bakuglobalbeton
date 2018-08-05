@@ -380,7 +380,7 @@ body {
 		color: #323335;
 	}
 	.nav-link{
-		color: black!important;
+		
 		padding-top: 0!important;
 		padding-bottom: 0!important;
 	}
@@ -388,6 +388,19 @@ body {
 		padding-top: 0!important;
 		padding-bottom: 0!important;
 	}
-	.nav-item:hover .nav-link{
-		color: orange!important;
+	@media and screen (max-width: 768px){
+		.navbar-brand{
+			display: none;
+		}
 	}
+/*DESIGNING BUTTONS*/
+.btnMine {
+	color: black!important;
+	background-color: white!important;
+	border:none!important;
+}
+
+.btnMine:hover {
+	background-color: orange!important;
+	border:none!important;
+}
