@@ -1,3 +1,8 @@
+document.onreadystatechange=function(){
+    if(document.readyState=="complete"){
+        preloader.style.display="none";
+    }
+}
 $(document).ready(function(){
     $(".search").click(function(){
         $(".searchinput").css({
@@ -23,46 +28,7 @@ $(document).ready(function(){
             "display":"none"
         })
     })
-    $(".menuicn").click(function(){
-        $(this).css({
-            "display":"none"
-        })
-        $(".menulayout").css({
-            "width":"100%",
-            "height":"auto"
-        })
-        $(".cancel").css({
-            "display":"block",
-        })
-        console.log(this, "this is main icon");
-    })
-    $(".cancel").click(function(){
-        $(".menulayout").animate({
-            "width":"0"
-        }, 200, function(){
-            $(".menulayout").css({
-                "height":"0"
-            })
-        })
-        $(this).css({
-            "display":"none"
-        })
-        $(".menuicn").css({
-            "display":"block"
-        })
-        console.log(this, "this is extra icon");
-    })
-        // let shareclick=document.querySelector(".shareclick");
-        // let shareDiv=document.querySelector(".shareDiv");
-        // shareclick.onclick=function(){
-        //         if(shareDiv.style.display=="inline-block"){
-        //             shareDiv.style.display="none";
-        //         }
-        //         else{
-        //             shareDiv.style.display="inline-block";
-        //         }
-                
-        //     }
+
             
            
 

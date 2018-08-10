@@ -1,0 +1,385 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background-color: whitesmoke;
+  }
+  
+  header {
+	position: sticky;
+	left: 0;
+	top: -60px;
+	z-index: 30;
+  }
+  header .contact {
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto;
+  }
+  header .contact .containers {
+	width: 90%;
+	color: white;
+	margin: auto;
+	font-size: 1em;
+	line-height: 60px;
+	letter-spacing: 3px;
+	position: relative;
+  }
+  header .contact .containers .spanicn {
+	display: inline-block;
+  }
+  header .contact .containers .searchspan {
+	display: inline-block;
+  }
+  header .contact .containers .searchspan .inputclose {
+	display: none;
+  }
+  header .contact .containers .searchspan .search {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 1em;
+	padding: 13px 13px;
+	border-radius: 100%;
+	transition: all 0.7s;
+  }
+  header .contact .containers .searchspan .search:hover {
+	background-color: white;
+	border-radius: 100%;
+	color: darkgray;
+	transition: all 0.7s;
+  }
+  header .contact .containers .searchspan .searchinput {
+	border: transparent;
+	background-color: transparent;
+	outline: none;
+	color: white;
+	display: none;
+  }
+  header .contact .containers .searchspan .searchinput::placeholder {
+	color: white;
+  }
+  header .contact .containers .searchspan .inputclose:hover {
+	color: red;
+  }
+ 
+
+  header .cancel {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #161515;
+	color: white;
+	padding: 25px 25px;
+	font-size: 2em;
+	z-index: 1000;
+	display: none;
+	}
+	.navbarlogo {
+  	height: 60px;
+  	width: 230px;
+  	padding-top: 5px;
+  }
+	header{
+		position: sticky;
+		left: 0;
+		top: -60px;
+		box-shadow: 1px 3px 10px black;
+	}
+	nav{
+		padding: 0!important;
+	}
+	.bg-light{
+		background-color: white!important;
+	}
+	.productitm:hover .productDiv{
+		display: block;
+	}
+	
+	.navButtons li {
+		margin: 3px;
+	}
+		
+	.navbarIcons a i {
+		color: black;
+		font-size: 25px;
+		margin: 5px;
+	}
+	.navbarIcons a i:hover {
+		color: #323335;
+	}
+	.nav-link{
+		
+		padding-top: 0!important;
+		padding-bottom: 0!important;
+	}
+	.navbar-brand{
+		padding-top: 0!important;
+		padding-bottom: 0!important;
+	}
+/*DESIGNING BUTTONS*/
+.btnMine {
+	color: black!important;
+	background-color: white!important;
+	border:none!important;
+}
+
+.btnMine:hover {
+	background-color: orangered!important;
+	border:none!important;
+}
+.active{
+	background-color: orangered!important;
+	border:none!important;
+}
+  
+  
+
+     
+  @media screen and (max-width: 1024px) {
+	header .contact {
+	  display: none;
+	}
+	/* header .contact .containers {
+	  width: 90%;
+	  color: white;
+	  margin: auto;
+	  font-size: 1em;
+	  line-height: 60px;
+	  letter-spacing: 3px;
+	  position: relative;
+	}
+	header .contact .containers .spanicn {
+	  display: inline-block;
+	}
+	header .contact .containers .searchspan {
+	  display: inline-block;
+	}
+	header .contact .containers .searchspan .search {
+	  position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	  font-size: 1em;
+	  padding: 13px 13px;
+	  border-radius: 100%;
+	  transition: all 0.7s;
+	}
+	header .contact .containers .searchspan .search:hover {
+	  background-color: white;
+	  border-radius: 100%;
+	  color: darkgray;
+	  transition: all 0.7s;
+	} */
+	
+}
+
+/* designing of about parallax is here */
+
+.imageDiv{
+	background-image: url("../images/zavod1.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+	background-attachment: fixed;
+}
+.imageDiv h1{
+	color: orangered;
+	text-align: center;
+	line-height: 500px;
+	font-size: 4em;
+	font-family: 'Lobster', cursive;
+}
+
+@media (max-width:767px){
+	.imageDiv{
+		background-image: url("../images/zavod1.jpg");
+		background-size: cover;
+		
+		object-fit: cover;
+		width: 100%;
+		height: 350px;
+		background-attachment: fixed;
+	}
+	.imageDiv h1{
+		color: orangered;
+		text-align: center;
+		line-height: 350px;
+		font-size: 2em;
+		font-family: 'Lobster', cursive;
+	}
+}
+/* about parallax ends here */
+
+
+
+/* Designing of about section is here */
+#aboutCompany{
+	padding-top: 5%;
+}
+
+@media(max-width:767px){
+	.aboutText{
+		font-size: 0.8em!important;
+	}
+}
+
+
+/* about section ends here */
+
+.aboutText{
+	font-size: 1.3em;
+}
+
+ 
+/* Designing of footer here */
+
+/* ourTeam section starts here */
+#ourTeam{
+	padding-top: 5%;
+}
+#ourTeam h4{
+	padding-top: 5%;
+}
+.teamP{
+	font-size: 1.3em;
+}
+
+/* ourteam section ends here */
+
+
+
+.showlayout{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.926);
+	opacity: 0;
+	z-index: -30;
+}
+	.show{
+			position: absolute;
+			width: 50%;
+			top: 10%;
+			height: 400px;
+			margin: auto;
+	}
+	.itemDiv{
+			width: 100%;
+			overflow: hidden;
+	}
+	.itemDiv img{
+		height: 500px;
+		width: 100%;
+	}
+	.close{
+			position: absolute;
+			right: -10px;
+			top: -10px;
+			color: white;
+			font-size: 30px;
+	}
+@media (max-width:767px){
+	.show{
+		position: absolute;
+		width: 80%;
+		top: 30%;
+		height: 400px;
+		margin: auto;
+}
+.itemDiv{
+		width: 100%;
+		overflow: hidden;
+}
+.itemDiv img{
+	height: 200px;
+	width: 100%;
+}
+}
+	#section9{
+		padding-top: 5%;
+	}
+		.imgItem{
+			height: 180px;
+			overflow: hidden;
+		}
+		.imgItem:hover{
+			cursor: pointer;
+		}
+		.imgItem img{
+			width: 100%;
+      object-fit: cover;
+		}
+  .secondRow{
+		margin-top: 3%;
+	}
+	@media(max-width:767px){
+		.secondRow{
+			margin-top: 0;
+		}
+	}
+
+
+	#preloader{
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translateY(-50%);
+		transform: translateX(-50%);
+	}
+
+#footer {
+	margin: auto;
+	padding: 100px 0;
+	
+	
+  }
+  #footer .logo_img {
+	padding: 0;
+  }
+  #footer .logo ul {
+	padding: 0;
+	display: inline-block;
+  }
+  #footer .logo ul li {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 300;
+	line-height: 2.23em;
+	font-size: 18px;
+	color: #666666;
+	list-style-type: none;
+	padding-left: -5px;
+  }
+  #footer .logo ul h2 {
+	font-weight: 750;
+  }
+  #footer .logo ul .media-left {
+	margin-right: 15px;
+  }
+  #footer .logo .innerul {
+	padding-left: 7%;
+  }
+  
+  .copyright {
+	background-color: black;
+	height: 80px;
+
+  }
+  .copyright .text-center {
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	line-height: 80px;
+  }
+  .copyright .text-center p {
+	margin-bottom: 0 !important;
+	font-size: 0.9em;
+  }
