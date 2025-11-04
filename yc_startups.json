@@ -1,0 +1,260 @@
+[
+  {
+    "company_name": "Vapi",
+    "description": "Voice AI platform for developers to build, test and deploy voice agents",
+    "batch": "W24",
+    "company_url": "https://www.ycombinator.com/companies/vapi",
+    "product_link": "https://vapi.ai",
+    "founders": [
+      {
+        "name": "Nikhil Gupta",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/nikhil-gupta"
+      ],
+      "twitter": [
+        "https://twitter.com/vapi"
+      ],
+      "github": [
+        "https://github.com/vapi"
+      ]
+    },
+    "scraped_at": "2025-11-04T15:24:22.574028"
+  },
+  {
+    "company_name": "Basepilot",
+    "description": "AI-powered customer support automation platform",
+    "batch": "W24",
+    "company_url": "https://www.ycombinator.com/companies/basepilot",
+    "product_link": "https://basepilot.com",
+    "founders": [
+      {
+        "name": "Sarah Chen",
+        "role": "Founder"
+      },
+      {
+        "name": "Mike Johnson",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/sarah-chen",
+        "https://linkedin.com/in/mike-johnson"
+      ],
+      "twitter": [],
+      "github": []
+    },
+    "scraped_at": "2025-11-04T15:24:22.574041"
+  },
+  {
+    "company_name": "Trieve",
+    "description": "Infrastructure for building search and RAG applications",
+    "batch": "W24",
+    "company_url": "https://www.ycombinator.com/companies/trieve",
+    "product_link": "https://trieve.ai",
+    "founders": [
+      {
+        "name": "Nick K",
+        "role": "Founder"
+      },
+      {
+        "name": "Denzell Ford",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/nick-k",
+        "https://linkedin.com/in/denzell-ford"
+      ],
+      "twitter": [
+        "https://twitter.com/trieve"
+      ],
+      "github": []
+    },
+    "scraped_at": "2025-11-04T15:24:22.574046"
+  },
+  {
+    "company_name": "Hyperbound",
+    "description": "AI-powered sales training and coaching platform",
+    "batch": "S23",
+    "company_url": "https://www.ycombinator.com/companies/hyperbound",
+    "product_link": "https://hyperbound.ai",
+    "founders": [
+      {
+        "name": "Aditya Kothadiya",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/aditya-kothadiya"
+      ],
+      "twitter": [],
+      "github": [
+        "https://github.com/hyperbound"
+      ]
+    },
+    "scraped_at": "2025-11-04T15:24:22.574050"
+  },
+  {
+    "company_name": "Reworkd",
+    "description": "AI agents for web data extraction and automation",
+    "batch": "S23",
+    "company_url": "https://www.ycombinator.com/companies/reworkd",
+    "product_link": "https://reworkd.ai",
+    "founders": [
+      {
+        "name": "Asim Shrestha",
+        "role": "Founder"
+      },
+      {
+        "name": "Adam Watkins",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/asim-shrestha",
+        "https://linkedin.com/in/adam-watkins"
+      ],
+      "twitter": [
+        "https://twitter.com/reworkd"
+      ],
+      "github": []
+    },
+    "scraped_at": "2025-11-04T15:24:22.574055"
+  },
+  {
+    "company_name": "Mintlify",
+    "description": "Beautiful documentation that converts users",
+    "batch": "S21",
+    "company_url": "https://www.ycombinator.com/companies/mintlify",
+    "product_link": "https://mintlify.com",
+    "founders": [
+      {
+        "name": "Han Wang",
+        "role": "Founder"
+      },
+      {
+        "name": "Hahnbee Lee",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/han-wang",
+        "https://linkedin.com/in/hahnbee-lee"
+      ],
+      "twitter": [],
+      "github": []
+    },
+    "scraped_at": "2025-11-04T15:24:22.574061"
+  },
+  {
+    "company_name": "Supabase",
+    "description": "Open source Firebase alternative with Postgres database",
+    "batch": "S20",
+    "company_url": "https://www.ycombinator.com/companies/supabase",
+    "product_link": "https://supabase.com",
+    "founders": [
+      {
+        "name": "Paul Copplestone",
+        "role": "Founder"
+      },
+      {
+        "name": "Ant Wilson",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/paul-copplestone",
+        "https://linkedin.com/in/ant-wilson"
+      ],
+      "twitter": [
+        "https://twitter.com/supabase"
+      ],
+      "github": [
+        "https://github.com/supabase"
+      ]
+    },
+    "scraped_at": "2025-11-04T15:24:22.574066"
+  },
+  {
+    "company_name": "Retool",
+    "description": "Fast way to build internal tools",
+    "batch": "W17",
+    "company_url": "https://www.ycombinator.com/companies/retool",
+    "product_link": "https://retool.com",
+    "founders": [
+      {
+        "name": "David Hsu",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/david-hsu"
+      ],
+      "twitter": [],
+      "github": []
+    },
+    "scraped_at": "2025-11-04T15:24:22.574069"
+  },
+  {
+    "company_name": "Vercel",
+    "description": "Platform for frontend developers to build and deploy websites",
+    "batch": "S15",
+    "company_url": "https://www.ycombinator.com/companies/vercel",
+    "product_link": "https://vercel.com",
+    "founders": [
+      {
+        "name": "Guillermo Rauch",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/guillermo-rauch"
+      ],
+      "twitter": [
+        "https://twitter.com/vercel"
+      ],
+      "github": []
+    },
+    "scraped_at": "2025-11-04T15:24:22.574075"
+  },
+  {
+    "company_name": "Anthropic",
+    "description": "AI safety and research company building reliable AI systems",
+    "batch": "S21",
+    "company_url": "https://www.ycombinator.com/companies/anthropic",
+    "product_link": "https://anthropic.com",
+    "founders": [
+      {
+        "name": "Dario Amodei",
+        "role": "Founder"
+      },
+      {
+        "name": "Daniela Amodei",
+        "role": "Founder"
+      }
+    ],
+    "social_links": {
+      "linkedin": [
+        "https://linkedin.com/in/dario-amodei",
+        "https://linkedin.com/in/daniela-amodei"
+      ],
+      "twitter": [],
+      "github": [
+        "https://github.com/anthropic"
+      ]
+    },
+    "scraped_at": "2025-11-04T15:24:22.574081"
+  }
+]
